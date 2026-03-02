@@ -7,8 +7,3 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
-.author__avatar img {
-  max-width: 180px; /* Increase or decrease this number to get your perfect size */
-  width: 100%;
-}
